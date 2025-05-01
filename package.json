@@ -15,7 +15,7 @@
     "tailwindcss": "^4.1.5",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://github.com/riyathomasm/Color-Palette-Generator.git",
+  "homepage": "https://github.com/riyathomasm/Color-Palette-Generator",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
