@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/riyathomasm/Color-Palette-Generator.git/static/css/main.eb896d02.css",
+    "main.js": "/riyathomasm/Color-Palette-Generator.git/static/js/main.48d0b5cf.js",
+    "index.html": "/riyathomasm/Color-Palette-Generator.git/index.html",
+    "main.eb896d02.css.map": "/riyathomasm/Color-Palette-Generator.git/static/css/main.eb896d02.css.map",
+    "main.48d0b5cf.js.map": "/riyathomasm/Color-Palette-Generator.git/static/js/main.48d0b5cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb896d02.css",
+    "static/js/main.48d0b5cf.js"
+  ]
+}
