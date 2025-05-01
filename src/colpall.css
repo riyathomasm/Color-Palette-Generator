@@ -1,0 +1,120 @@
+
+.palette-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: 'Courier New', monospace;
+  }
+  
+  .palette-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  
+  .color-box {
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.85);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    border: 3px solid #000;
+    transition: transform 0.2s ease;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .color-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .save-button {
+    padding: 10px 15px;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 100%;
+    font-size: 16px;
+    border: 3px solid #000;
+    transition: all 0.2s ease;
+  }
+  
+  .save-button:hover {
+    background-color: #fff;
+    color: #000;
+  }
+ 
+  .saved-palettes-section {
+    margin-top: 30px;
+    border-top: 3px solid #000;
+    padding-top: 20px;
+  }
+  
+  .saved-palettes-section h2 {
+    font-family: 'Courier New', monospace;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .saved-palettes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+ 
+  .saved-palette {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    border: 2px solid #000;
+    background-color: #f3f3f3;
+  }
+  
+  .mini-palette {
+    display: flex;
+    flex: 1;
+    height: 40px;
+  }
+  
+  .mini-color {
+    flex: 1;
+    border: 1px solid #000;
+  }
+  
+
+  .remove-palette {
+    background-color: #ff3333;
+    color: white;
+    border: 2px solid #000;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+  }
+  
+  .remove-palette:hover {
+    background-color: #ff0000;
+  }
+  
